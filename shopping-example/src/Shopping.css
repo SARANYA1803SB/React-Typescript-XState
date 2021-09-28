@@ -1,0 +1,30 @@
+* {
+  background-color: lightblue;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container div {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  flex-direction: row;
+}
+
+.buttons button {
+  padding: 8px 16px;
+  color: aliceblue;
+  border: 3px solid black;
+  background: blue;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
